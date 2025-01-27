@@ -84,6 +84,7 @@ p.gray {
     font-style: normal;
     font-size: 16px;
     line-height: 24px;
+    align-itens: center;
     color: #070F18;
 }
 h2.red {
