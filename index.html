@@ -1,139 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- FONTE USADA -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title> Portifólio </title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <section id="SectionOne">
-        <div class="container">
-            <div id="header">
-                Portifolio
-            </div>
-            <div id="menu">
-                <ul>
-                    <li><a href="#services">Meus Serviços</a></li>
-                    <li><a href="#contact">Contato</a></li>
-                    <li><a href="#portifolioTitle">Portifólio</a></li>
-                </ul>
-            </div>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon" />
+    <title>Desafio 2</title>
+  </head>
+  <body>
+    <!-- Nav superior -->
+    <nav id="nav-container">
+      <!-- Titulo portifólio -->
+      <h2 class="black-text" id="title-nav">Portifólio</h2>
+
+      <ul id="nav-list-container">
+        <!-- Link menu serviços -->
+        <li class="lists-nav">
+          <a href="#services-container">Meus Serviços</a>
+        </li>
+        <!-- Link contato -->
+        <li class="lists-nav">
+          <a href="#form-container">Contato</a>
+        </li>
+        <!-- Link portifólio -->
+        <li class="lists-nav">
+          <a href="#portifolio-container">Portifólio</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- Menu incial Maria -->
+      <div id="maria-container">
+        <!-- Container de textos -->
+        <div id="textsMaria-container">
+          <!-- Titulo sobre Maria -->
+          <h1 lass="black-text" id="titleMain-maria">Olá, meu nome é Maria!</h1>
+          <!-- Texto sobre Maria -->
+          <p class="gray-text" id="textMain-maria">
+            Sou programadora e gostaria de apresentar meu trabalho para você
+            através deste portfólio.
+          </p>
+          <!-- Link serviços Maria -->
+          <a href="#" id="buttonLink-maria">Meus Serviços</a>
         </div>
-    </section>
-    <section id="SectionTwo">
-        <div class="container">
-            <div id="headerCta">
-                <h1>Olá, meu nome <br>
-                    é Maria!
-                </h1>
-                <p class="gray">
-                    Sou programadora e gostaria de apresentar meu <br>
-                    trabalho para você através deste portfólio.
-                </p>
-                <a href="" id="buttonCta">Meus Serviços</a>
-            </div>
-            <div id="headerImg">
-                <img src="image/header.svg" alt="image">
-            </div>
+        <!-- Imagem Maria -->
+        <div id="imageMaria-container">
+          <img src="images/header.svg" alt="Imagem da maria" id="imgMaria" />
         </div>
-    </section>
-    <section id="SectionTree">
-        <div class="container" id="clients">
-            <div id="headerClientText">
-                <p>Alguns dos <br>
-                meus clientes</p>
-            </div>
-            <div class="headerLogo">
-                <img src="image/apple.svg" alt="apple">
-            </div>
-            <div class="headerLogo">
-                <img src="image/slack.svg" alt="slack">
-            </div>
-            <div class="headerLogo">
-                <img src="image/spotify.svg" alt="spotify">
-            </div>
+      </div>
+
+      <!-- Container clientes da Maria -->
+      <div id="logos-container">
+        <!-- Texto alguns dos meus clientes -->
+        <div id="text-logosContainer">
+          <p>Alguns dos meus clientes</p>
+        </div>
+        <!-- Logo1 menu serviços -->
+        <img src="images/apple.svg" alt="Imagem do icone da Apple" />
+        <!-- Logo2 menu serviços -->
+        <img src="images/slack.svg" alt="Imagem do icone da Slack" />
+        <!-- Logo3 menu serviços -->
+        <img src="images/spotify.svg" alt="Imagem do icone do Spotify" />
+      </div>
+
+      <!-- Container serviços -->
+      <div id="services-container">
+        <!-- Textos menu serviços -->
+        <div id="textServices-container">
+          <h4 class="red-text">Conheça</h4>
+          <h1 lass="black-text" id="title-services">Meus Serviços</h1>
+          <p class="gray-text" id="text-services">
+            Vou ajudar a sua empresa a alcançar grandes resultados.
+          </p>
+        </div>
+      </div>
+
+      <!-- Container icons serviços -->
+      <div id="iconsServices-container">
+        <!-- Container consultoria -->
+        <div class="iconsAndTexts-container">
+          <img src="images/icon1.svg" alt="Icone consultoria" />
+          <h3 class="black-text">Consultoria</h3>
+          <p class="gray-text">
+            Te ajudo a organizar sua empresa e melhorar seus resultados.
+          </p>
         </div>
 
-    </section>
-    <section id="SectionFour">
-        <div class="container textCenter">
-            <div id="services">
-                <h2 class="red">Conheça</h2>
-                <h1 class="black">Meus Serviços</h1>
-                <p id="text-h1">
-                    Vou ajudar a sua empresa a <br>
-                    alcançar grandes resultados.
-                </p>
-            </div>
+        <!-- Container Marketing -->
+        <div class="iconsAndTexts-container">
+          <img src="images/icon2.svg" alt="Icone marketing" />
+          <h3 class="black-text">Email Marketing</h3>
+          <p class="gray-text">
+            Gerenciar campanhas é difícil. Conte comigo para te ajudar.
+          </p>
         </div>
-    </section>
-    <section id="SectionFive">
-        <div class="container">
-            <div class="textCenter" id="services">
-                <img src="image/icon1.svg" alt="icon1">
-                <h3>Consultoria</h3>
-                <p class="gray">
-                    Te ajudo a organizar sua empresa <br>
-                    e melhorar seus resultados.
-                </p>
-            </div>
-            <div class="textCenter">
-                <img src="image/icon2.svg" alt="icon2">
-                <h3>Email Marketing</h3>
-                <p class="gray">Gerenciar campanhas é difícil. <br>
-                    Conte comigo para te ajudar.
-                </p >
-            </div>
-            <div class="textCenter">
-                <img src="image/icon3.svg" alt="icon3">
-                <h3>Criação de Sites</h3>
-                <p class="gray">Desenvolvo seu site inteiro
-                    do zero e te entrego prontinho.
-                </p>
-            </div>
+
+        <!-- Container Sites -->
+        <div class="iconsAndTexts-container">
+          <img src="images/icon3.svg" alt="Icone ciração de sites" />
+          <h3 class="black-text">Criação de Sites</h3>
+          <p class="gray-text">
+            Desenvolvo seu site inteiro do zero e te entrego prontinho.
+          </p>
         </div>
-    </section>
-    <section id="SectionSix">
-        <div class="container" id="contact">
-            <div id="contactImg">
-                <img src="image/imagemform.svg" alt="imagemform">
-            </div>
-            <div id="contactForm">
-                <h2 class="red">Economize seu tempo</h2>
-                <h1 class="black">Ganhe mais dinheiro</h1>
-                <p class="gray">Digite aqui seu endereço de e-mail. Eu entrarei<br>  
-                    em contato para fornecer um diagnóstico gratuito.
-                </p>
-                <form action="https://formspree.io/f/myzgaqvn" method="post">
-                    <p> <input type="text" placeholder="Seu e-mail" id="emailInput" name="contactEmail" required></p>
-                    <button type="submit">Enviar</button>
-                </form>
-            </div>
+      </div>
+
+      <!-- Formulário container -->
+      <div id="form-container">
+        <!-- Container img formulário -->
+        <div id="image-formContainer">
+          <img src="images/imagemform.svg" alt="Imagem da seção formulário" />
         </div>
-    </section>
-    <section id="SectionSeven">
-        <div class="container" id="portifolioTitle">
-            <div>
-                <h2 class="red">Conheça meu trabalho</h2>
-                <h1 class="black">Portifolio</h1>
-            </div>
+
+        <div id="formulario">
+          <!-- Textos formulários -->
+          <div id="textsForm">
+            <h4 class="red-text">Economize seu tempo</h4>
+            <h1 class="black-text">Ganhe mais dinheiro</h1>
+            <p class="gray-text">
+              Digite aqui seu endereço de e-mail. Eu entrarei em contato para
+              fornecer um diagnóstico gratuito.
+            </p>
+          </div>
+
+          <!-- Input e Button Formulário -->
+          <form action="https://formspree.io/f/xoverbgo" method="post">
+            <input type="email" name="email" id="email-input" placeholder="Seu email"/>
+            <button type="submit" id="btn-form">Enviar</button>
+          </form>
+
         </div>
-        <div class="container">
-            <div class="portifolioImg">
-                <img src="image/portifolio1.svg" alt="">
-            </div>
-            <div class="portifolioImg">
-                <img src="image/portifolio2.svg" alt="">
-            </div>
-            <div class="portifolioImg">
-                <img src="image/portifolio3.svg" alt="">
-            </div>
+      </div>
+
+      <!-- Portifólio container -->
+      <div id="portifolio-container">
+        <div id="text-portifolioContainer">
+          <h4 class="red-text">Conheça meu trabalho</h4>
+          <h1 class="black-text">Portifólio</h1>
         </div>
-    </section>
-</body>
+        <div id="images-portifolio">
+          <img src="images/portifolio1.svg" alt="" />
+          <img src="images/portifolio2.svg" alt="" />
+          <img src="images/portifolio3.svg" alt="" />
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
